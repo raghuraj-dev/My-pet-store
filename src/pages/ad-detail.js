@@ -70,7 +70,7 @@ class AdDetail extends Component{
                         <br/><br/>
                         <h4 className="myStyleTitle h3"><small>Rs. </small>{this.state.price}</h4><br/>
                         <p className="myStyleTitle h2">Contact info : {this.state.contact}</p><br/><br/>
-                        <Link to={"/profile/"+this.state.userID } className="btn btn-primary btn-block">More info for this ad owner</Link>
+                        <Link to={`/profile/${this.state.userID}` } className="btn btn-primary btn-block">More info for this ad owner</Link>
                     </div>
                 </div>
             </div>
